@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = +(prompt("Сколько вам лет?"));
+        
+        switch(age) {
+            case 18:
+                alert('Доступ разрешен!');
+                break;
+
+            case 10:
+                alert('Вы несовершеннолетний!');
+                break;
+            
+            case 30:
+                alert('Ложись спать, старик!');
+                break;
+
+            default: 
+                alert('Мы не знаем что вам делать');   
+        }
+    </script>
+</body>
+</html>
